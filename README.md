@@ -10,10 +10,10 @@
 
 ## Parts
 
-    - Part 1 : Fib Memoization
+    - Part 1 : 
+        Fib Memoization
         write a function 'fib(n)' that takes in a number as an argument-
-        The function should return the n-th number of Fibonacci sequence. 
-
+        The function should return the n-th number of Fibonacci sequence.
 
     - Part 2 : Tabulation
 
