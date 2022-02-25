@@ -24,7 +24,16 @@
         dimensions m * n?
         Write a function 'gridTraveler(m, n)' that calculates this
 
-    - Part 3 : Tabulation
+    - Part 3 :
+        Can Sum
+        Write a function 'canSum(targetSum, numbers)' that takes in a 
+        targetSum and an array of numbers as arguments.
+        The function should return a boolean indicating whether or not it is
+        possible to generate the targetSum using th numbers from the array.
+        You may use an element of the array as many times as needed.
+        You may assume that all input numbers are non-negative.
+
+    - Part 4 : Tabulation
 
 ## Additional info
 
