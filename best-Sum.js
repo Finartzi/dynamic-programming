@@ -7,7 +7,8 @@
 
 */
 
-const bestSum = (targetSum, numbers) => {
+const bestSum = (targetSum, numbers, memo = {}) => {
+    if(targetSum in memo) return memo[targetSum];
     if(targetSum === 0) return [];
     if(targetSum < 0 ) return null;
 
@@ -15,7 +16,7 @@ const bestSum = (targetSum, numbers) => {
 
     for (let num of numbers){
         const remainder = targetSum - num;
-        remainderCombination = bestSum(remainder, numbers);
+        remainderCombination = bestSum(remainder, numbers, memo);
         if(remainderCombination !== null){
             const combination = [...remainderCombination, num];
             // if the current combination is is shorter than the current 'shortest', update it
@@ -24,6 +25,7 @@ const bestSum = (targetSum, numbers) => {
             }
         }
     }
+    memo[targetSum] = shortestCombination;
     return shortestCombination;
 };
 
