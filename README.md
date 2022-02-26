@@ -52,7 +52,15 @@
         If there is a tie for the shortest combination, you may return any
         one of the shortest.
 
-    - Part 6 : Tabulation
+    - Part 6 :
+        Can Construct
+        Write a function 'canConstruct(target, wordBank)' that accepts a 
+        target string and an array of strings.
+        The function should return a boolean indicating whether or not 'target'
+        can be constructed by concatenating elements of the 'wordBank' array.
+        We can reuse the elements of the 'wordBank' as many times needed.
+
+    - Part 7 : Tabulation
 
 ## Additional info
 
