@@ -10,8 +10,8 @@
 const gridTraveler = (n, m) => {
     const table = Array(m + 1)
     .fill()
-    .map(() => Array(n + 1));
-    table[0][0] = 'x';
+    .map(() => Array(n + 1).fill(0));
+    table[1][1] = 1;
     console.log(table);
 };
 
