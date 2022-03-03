@@ -79,7 +79,10 @@
         the 'target'.
         You may reuse the elements of the 'wordBank' as many times as needed.
 
-    - Part 9 : Tabulation
+    - Part 9 : 
+        Fib tabulation
+        write a function 'fib(n)' that takes in a number as an argument-
+        The function should return the n-th number of Fibonacci sequence.
 
 ## Additional info
 
