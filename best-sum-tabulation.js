@@ -16,7 +16,7 @@ const bestSum = (targetSum, numbers) => {
             for(let num of numbers){
                 const combination = [ ...table[i], num ];
                 // if this current combination is shorter, it is already stored
-                if(table[i + num].length > combination.length){
+                if(!table[i + num] || table[i + num].length > combination.length){
                     table[i + num] = combination;    
                 }
             }
