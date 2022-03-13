@@ -143,6 +143,15 @@
     can be constructed by concatenating elements of the 'wordBank' array.
     We can reuse the elements of the 'wordBank' as many times needed.
 
+### Part 15
+
+    Count Construct tabulation
+    Write a function 'countConstruct(target, wordBank)' that accepts a 
+    target string and an array of strings.
+    The function should return a number of ways that the 'target' can be
+    constructed by concatenating elements of the 'wordBank' array.
+    You may reuse the elements of the 'wordBank' as many times as needed.
+
 ## Memoization Recipe
 
     1. Make it work
