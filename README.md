@@ -13,12 +13,14 @@
 ### Part 1
 
     Fib Memoization
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=210s>
     write a function 'fib(n)' that takes in a number as an argument-
     The function should return the n-th number of Fibonacci sequence.
 
 ### Part 2
 
     Grid Traveler
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=2319s>
     Say that you are a traveler on a 2D grid. You begin in the top-left
     corner and your goal is to travel to the bottom-right corner.
     You may only move down or right.
@@ -29,6 +31,7 @@
 ### Part 3
 
     Can Sum
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=4196s>
     Write a function 'canSum(targetSum, numbers)' that takes in a 
     targetSum and an array of numbers as arguments.
     The function should return a boolean indicating whether or not it is
@@ -39,6 +42,7 @@
 ### Part 4
 
     How Sum
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=5369s>
     Write a function 'howSum(targetSum, numbers)' that takes in a 
     targetSum and an array of numbers as arguments.
     The function should return an array containing any combination of
@@ -50,6 +54,7 @@
 ### Part 5
 
     Best Sum
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=6726s>
     Write a function 'bestSum(targetSum, numbers)' that takes in a 
     targetSum and an array of numbers as arguments.
     The function should return an array containing the shortest
@@ -60,6 +65,7 @@
 ### Part 6
 
     Can Construct
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=7965s>
     Write a function 'canConstruct(target, wordBank)' that accepts a 
     target string and an array of strings.
     The function should return a boolean indicating whether or not 'target'
@@ -69,6 +75,7 @@
 ### Part 7
 
     Count Construct
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=9516s>
     Write a function 'countConstruct(target, wordBank)' that accepts a 
     target string and an array of strings.
     The function should return a number of ways that the 'target' can be
@@ -78,6 +85,7 @@
 ### Part 8
 
     All Construct
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=10050s>
     Write a function 'allConstruct(target, wordBank)' that accepts a 
     target string and an array of strings.
     The function should return a 2D array containing all of the ways that
@@ -90,12 +98,14 @@
 ### Part 9
 
     Fib tabulation
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=11453s>
     write a function 'fib(n)' that takes in a number as an argument-
     The function should return the n-th number of Fibonacci sequence.
 
 ### Part 10
 
     Grid Traveler tabulation
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=12137s>
     Say that you are a traveler on a 2D grid. You begin in the top-left
     corner and your goal is to travel to the bottom-right corner.
     You may only move down or right.
@@ -106,6 +116,7 @@
 ### Part 11
 
     Can Sum tabulation
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=13079s>
     Write a function 'canSum(targetSum, numbers)' that takes in a 
     targetSum and an array of numbers as arguments.
     The function should return a boolean indicating whether or not it is
@@ -116,6 +127,7 @@
 ### Part 12
 
     How Sum tabulation
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=13981s>
     Write a function 'howSum(targetSum, numbers)' that takes in a 
     targetSum and an array of numbers as arguments.
     The function should return an array containing any combination of
@@ -127,6 +139,7 @@
 ### Part 13
 
     Best Sum tabulation
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=14841s>
     Write a function 'bestSum(targetSum, numbers)' that takes in a 
     targetSum and an array of numbers as arguments.
     The function should return an array containing the shortest
@@ -137,6 +150,7 @@
 ### Part 14
 
     Can Construct tabulation
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=15650s>
     Write a function 'canConstruct(target, wordBank)' that accepts a 
     target string and an array of strings.
     The function should return a boolean indicating whether or not 'target'
@@ -146,10 +160,24 @@
 ### Part 15
 
     Count Construct tabulation
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=16686s>
     Write a function 'countConstruct(target, wordBank)' that accepts a 
     target string and an array of strings.
     The function should return a number of ways that the 'target' can be
     constructed by concatenating elements of the 'wordBank' array.
+    You may reuse the elements of the 'wordBank' as many times as needed.
+
+### Part 16
+
+    All Construct tabulation
+    <https://www.youtube.com/watch?v=oBt53YbR9Kk&t=17423s>
+    Write a function 'allConstruct(target, wordBank)' that accepts a 
+    target string and an array of strings.
+    The function should return a 2D array containing all of the ways that
+    the 'target' can be constructed by concatenating elements of the 'wordBank' 
+    array.
+    Each element of the 2D array should represent one combination that constructs
+    the 'target'.
     You may reuse the elements of the 'wordBank' as many times as needed.
 
 ## Memoization Recipe
@@ -171,6 +199,13 @@
     - seed the trivial answer into the table
     - iterate through the table
     - fill further positions based on the current position
+  
+## Dynamic Programming
+    - notice any overlapping subproblems
+    - decide what is the trivially smallest input
+    - think recursively to use Memoization or
+    - think iteratively to use Tabulation
+    - draw a strategy first!!!
 
 ## Additional info
 
